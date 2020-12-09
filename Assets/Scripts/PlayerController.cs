@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public bool isOnGround = true;
     public bool gameOver = false;
     private Animator playerAnim;
+    public AudioClip jumpSound;
+    public AudioClip crashSound;
     public ParticleSystem explosionParticle;
     public ParticleSystem dirtParticle;
     // Start is called before the first frame update
